@@ -3,7 +3,7 @@
 ## About Me
 
 I am a student interested in Information Systems,
-technology, and building useful digital solutions. My dream is to get overseas scholarships. 
+technology, and building useful digital solutions. I am currently developing my skills in web development and preparing myself for international scholarships.
 
 ## Skills
 
