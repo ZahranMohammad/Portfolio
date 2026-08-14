@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+}
+.hero{
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    padding: 50px 25px;
+    border-radius: 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    color: #1f2937;
+}
+a:hover {
+    color: #2563eb;
+    transform: translateY(-5px);
+}
+.achievment-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.achievment-card{
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 15px;
+}
+.achievment-card h3{
+    text-align: left;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.project-card{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+}
+.project-card{
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.achievment-card{
+    transition: 0.3s ease;
+}
+.achievment-card:hover{
+    transform: translateY(-5px);
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.h3 {
+    font-size: 20px;
+}
+.section {
+    margin-bottom: 70px;
+}
+.achievment-card,.project-card,.certificates-card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.certificates-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.certificates-card{
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.certificates-card:hover {
+    transform: translateY(-5px);
+}
+.certificates-card h3{
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .achievment-container {
+        grid-template-columns: 1fr;
+    }
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+    .certificates-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .h1 {
+        font-size: 32px;
+    }
+    .h2 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
